@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/*
+  Tema SoulPass — paleta roxo/magenta alinhada à identidade visual da
+  SoulUp (soulup.io), com breakpoints customizados exigidos pela Sprint 3
+  (mobile ate 480px, tablet 768px, desktop 992px+).
+*/
+@theme {
+  --color-soulup-100: #f3e6fa;
+  --color-soulup-300: #c15fd6;
+  --color-soulup-500: #e6197a;
+  --color-soulup-700: #6b1e8c;
+  --color-soulup-900: #2a0a3d;
+
+  --color-ink: #1a0a24;
+  --color-paper: #faf7fb;
+
+  --font-display: "Poppins", "Noto Sans", sans-serif;
+  --font-body: "Noto Sans", sans-serif;
+
+  --breakpoint-xs: 30rem;    /* 480px */
+  --breakpoint-tablet: 48rem; /* 768px */
+  --breakpoint-desktop: 62rem; /* 992px */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background-color: var(--color-paper);
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-soulup-500);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
