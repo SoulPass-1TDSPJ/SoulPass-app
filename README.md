@@ -166,13 +166,9 @@ Turma **1TDSPJ** · FIAP · Análise e Desenvolvimento de Sistemas.
 
 ## 🔗 GitHub do projeto
 
-[github.com/SoulPass-1TDSPJ/soulpass_front](https://github.com/SoulPass-1TDSPJ/soulpass_front.git)
+[github.com/SoulPass-1TDSPJ/SoulPass-app](https://github.com/SoulPass-1TDSPJ/SoulPass-app.git)
 
 ## 🎥 Vídeo de demonstração
 
-> Espaço reservado para o link do vídeo de apresentação da Sprint 3.
-> `[COLOCAR LINK DO VÍDEO AQUI]`
+[https://youtu.be/8AIbNRM5C5Q]
 
-## 🖼️ Imagens ilustrativas
-
-> Espaço reservado para prints/GIFs das telas (Home, Sobre, FAQ, Contato, Integrantes, Solução) a serem anexados na entrega final.
